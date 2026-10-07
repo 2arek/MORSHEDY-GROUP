@@ -86,5 +86,4 @@ Project/
 ├── Documentation/
 └── README.md
 
-Author: Tarek Ahmed
 
