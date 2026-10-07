@@ -1,53 +1,99 @@
-# 🏢 Morshedi Real Enterprise Analytics Dashboard
+# 🏢 MORSHEDY GROUP Sales & Collection Analytics
 
-An end-to-end Business Intelligence solution built using **Power BI** to analyze sales performance, customer installments, and financial collections across multiple prominent real estate projects associated with Morshedi Group (such as Degla Landmark, One Kattamea, Crystal Plaza Maadi, and Sky Line).
-
----
-
-## 🚀 Project Overview
-This project aims to provide stakeholders and management with deep, data-driven insights into real-time sales trends, remaining installments, cash flow collections, and unit distributions. By transforming raw operational data into interactive, visual dashboards, the system helps monitor project performance and track financial targets efficiently.
+## 📌 Project Overview
+The real estate company sells units through installment plans. However, the collection data is stored across multiple project worksheets, making it difficult to monitor the overall collection performance. This project builds an end-to-end Power BI solution to centralize, clean, and analyze sales and financial collections.
 
 ---
 
-## 🛠️ Tech Stack & Tools
-* **Data Modeling & ETL:** Power Query, Star Schema / Galaxy Schema Architecture.
-* **Calculations & Metrics:** Data Analysis Expressions (DAX) - Measures & Calculated Columns.
-* **Visualization:** Power BI Desktop (Interactive Dashboards, Drill-throughs, and Custom Tooltips).
-* **Version Control:** Git & GitHub.
+## 🛑 Business Problem
+- Data is distributed across 8 project worksheets.
+- Installment information is stored in multiple columns and different business states.
+- Management needs to identify paid, due, and not-yet-due installments.
+- It is difficult to monitor collected and outstanding amounts in one place.
+- Management needs visibility into bank exposure and project progress.
 
 ---
 
-## 📊 Key Features & Dashboard Sections
-* **Executive Summary:** High-level KPIs tracking total sales revenue, total collected amounts, remaining balances, and total units sold.
-* **Project-Level Breakdown:** Comparative analysis across 8 major Morshedi projects (e.g., One Kattamea, Degla Landmark, etc.).
-* **Installments & Collections Tracking:** Monitoring due dates, collection rates, and delayed payments to optimize cash flow management.
-* **Interactive Filters:** Dynamic filtering by project, date ranges, payment status, and sales agents.
+## 📂 Dataset
+- **Source:** Morshedi Real Estate Projects Worksheets
+- **Time Period:** 2021 – 2026
 
 ---
 
-## 🗄️ Data Modeling
-* Built using a robust **Star Schema** to ensure optimal query performance and accurate relationship mapping between Fact tables (Sales & Transactions) and Dimension tables (Projects, Customers, Dates, and Units).
+## 🧹 Data Preparation
+The dataset was prepared using:
+- Data cleaning
+- Handling missing values
+- Removing duplicates
+- Data type transformation
+- Creating calculated columns
+- Creating relationships
+- Data modeling
 
 ---
 
-## ⚙️ DAX Measures Highlights
-* Total Revenue & Net Sales.
-* Total Collections & Outstanding Installments.
-* Percentage of Completion / Collection Rate.
-* Time-intelligence functions (Year-to-Date, Month-over-Month growth).
+## 🗄️ Data Model
+We create two fact tables because we have two business processes: the unit sold & the installment for the unit sold.
+
+**Schema Components:**
+- Fact Sales
+- Fact Installments
+- Dim Bank
+- Dim Customer
+- Dim Date
+- Dim Project
+- Dim Unit
+
+---
+
+## 💡 Key Insights
+
+### Insight 1
+**Strong Overall Collection Performance**
+- Installment collection gaps reveal critical points where cash flow slows down significantly in later stages.
+- Early installments show high commitment rates, while subsequent tiers require proactive follow-up.
+
+### Insight 2
+**Outstanding Balance Is Concentrated in Three Projects**
+- The total outstanding balance is significant across the portfolio. Three major projects account for the majority of this amount:
+  - **Skyline Katamya Compound**
+  - **Degla Landmark**
+  - **One Kattamea Compound**
+
+### Insight 3
+**Later Installments Need Collection Monitoring**
+- Collection performance decreases in the later installment stages.
+- Outstanding balances in these tiers require targeted recovery strategies before aging further.
+
+---
+
+## 💡 Business Recommendations
+Based on the analysis:
+1. **Management should maintain** the current collection follow-up process while giving special attention to the remaining large outstanding balances.
+2. **Management should give these projects** (Skyline, Degla Landmark, and One Kattamea) closer collection monitoring and review their outstanding installments regularly.
+3. **Management should increase follow-up** for later installments before unpaid balances become larger.
+
+---
+
+## 🛠️ Tools & Technologies
+- Power BI
+- DAX
+- Power Query
+- Excel
 
 ---
 
 ## 📂 Repository Structure
 
-- `Datasets/`          # Sample data / data dictionary
-- `Dashboard/`         # Power BI .pbix file
-- `Screenshots/`       # Dashboard preview images
-- `README.md`          # Project documentation
+```text
+Project/
+│
+├── Dataset/
+├── Power BI/
+├── Documentation/
+└── README.md
 
 ---
 
 ## 👤 Author
-* **Tarek Ahmed** 
-
-
+* **Tarek Ahmed**
