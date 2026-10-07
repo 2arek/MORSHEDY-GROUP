@@ -1,4 +1,4 @@
-# 🏢 Morshedi Real Estate Projects Analytics Dashboard
+# 🏢 Morshedi Real Enterprise Analytics Dashboard
 
 An end-to-end Business Intelligence solution built using **Power BI** to analyze sales performance, customer installments, and financial collections across multiple prominent real estate projects associated with Morshedi Group (such as Degla Landmark, One Kattamea, Crystal Plaza Maadi, and Sky Line).
 
@@ -39,12 +39,15 @@ This project aims to provide stakeholders and management with deep, data-driven 
 ---
 
 ## 📂 Repository Structure
-```text
-├── Datasets/          # Sample data / data dictionary
-├── Dashboard/         # Power BI .pbix file
-├── Screenshots/       # Dashboard preview images
-└── README.md          # Project documentation
+
+- `Datasets/`          # Sample data / data dictionary
+- `Dashboard/`         # Power BI .pbix file
+- `Screenshots/`       # Dashboard preview images
+- `README.md`          # Project documentation
 
 ---
-👤 Author
-Tarek Ahmed
+
+## 👤 Author
+* **Tarek Ahmed** 
+
+
