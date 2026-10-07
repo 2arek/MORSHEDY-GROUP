@@ -95,5 +95,5 @@ Project/
 
 ---
 
-## 👤 Author
-* **Tarek Ahmed**
+#👤 Author
+Tarek Ahmed
