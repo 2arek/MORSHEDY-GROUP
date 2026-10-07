@@ -79,15 +79,12 @@ Based on the analysis:
 
 ## 📂 Repository Structure
 
+```text
 Project/
-│
 ├── Dataset/
 ├── Power BI/
 ├── Documentation/
 └── README.md
 
----
+Author: Tarek Ahmed
 
-
-##👤 Author
-Tarek Ahmed
