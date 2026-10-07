@@ -14,12 +14,6 @@ The real estate company sells units through installment plans. However, the coll
 
 ---
 
-## 📂 Dataset
-- **Source:** Morshedi Real Estate Projects Worksheets
-- **Time Period:** 2021 – 2026
-
----
-
 ## 🧹 Data Preparation
 The dataset was prepared using:
 - Data cleaning
@@ -93,7 +87,7 @@ Project/
 ├── Documentation/
 └── README.md
 
----
+___
 
 #👤 Author
 Tarek Ahmed
