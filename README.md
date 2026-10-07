@@ -79,7 +79,6 @@ Based on the analysis:
 
 ## 📂 Repository Structure
 
-```text
 Project/
 │
 ├── Dataset/
@@ -87,7 +86,8 @@ Project/
 ├── Documentation/
 └── README.md
 
-___
+---
 
-#👤 Author
+
+##👤 Author
 Tarek Ahmed
